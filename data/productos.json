@@ -1,0 +1,58 @@
+[
+    {   
+        "nombre": "Old Prince", 
+        "codigo": 1,
+        "precio": 6820,
+        "detalle": "Alimento Old Prince Novel Cordero y Arroz Perro Adulto Mediano Y Grande - 15 Kg",
+        "imagen": "../imagenes/alimento1.png"
+    },
+    {   
+        "nombre": "Eukanuba", 
+        "codigo": 2,
+        "precio": 8545,
+        "detalle": "Alimento Old Prince Novel Cordero y Arroz Perro Adulto Mediano Y Grande - 15 Kg",
+        "imagen": "../imagenes/alimento2.png"
+    },
+    {   
+        "nombre": "Royal canin", 
+        "codigo": 3,
+        "precio": 6040,
+        "detalle": "Alimento Royal Canin para Perro Mini Adulto - 7.5 Kg",
+        "imagen": "../imagenes/alimento3.png"
+    },
+    {   
+        "nombre": "Excellent", 
+        "codigo": 4,
+        "precio": 7060,
+        "detalle": "Alimento Excellent para Perro Adulto Mediano y Grande - 20 Kg",
+        "imagen": "../imagenes/alimento4.png"
+    },
+    {   
+        "nombre": "Pelota Dental", 
+        "codigo": 5,
+        "precio": 880,
+        "detalle": "Pelota Dental Rugby Celeste",
+        "imagen": "../imagenes/accesorios1.png"
+    },
+    {   
+        "nombre": "Pelota Kong", 
+        "codigo": 6,
+        "precio": 1500,
+        "detalle": "Pelota Kong Duramax - S",
+        "imagen": "../imagenes/accesorios2.png"
+    },
+    {   
+        "nombre": "Manta", 
+        "codigo": 7,
+        "precio": 2500,
+        "detalle": "Manta Huella Angostura Verde Militar",
+        "imagen": "../imagenes/accesorios3.png"
+    },
+    {   
+        "nombre": "Pelota Dental", 
+        "codigo": 8,
+        "precio": 650,
+        "detalle": "Pelota Dental Puppis Baseball Verde",
+        "imagen": "../imagenes/accesorios4.png"
+    }
+]

@@ -1,0 +1,25 @@
+.card-carrito {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-img {
+    max-width: 75px;
+    float: left;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.boton-borrar {
+    width: 100px;
+}

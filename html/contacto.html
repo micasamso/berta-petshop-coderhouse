@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/78e2d26aac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Berta petshop</title>
+</head>
+<body>
+    <header>
+        <!-- NAV BAR -->
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Berta Petshop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/contacto.html">Contacto</a></li>
+                    </ul>
+                    <a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    
+    <h1>Contacto</h1>
+
+    <div class="container">
+        <form id="formulario-contacto" onSubmit="return false;">
+    
+            <label>Nombre completo</label>
+            <input type="text" id="nombre" name="nombre_completo" placeholder="Tu nombre completo...">
+    
+            <label>Email</label>
+            <input type="text" id="email" placeholder="email@dominio.com">
+    
+            <label>Zona</label>
+            <select id="zona">
+            <option value="caba">CABA</option>
+            <option value="norte">GBA Zona Norte</option>
+            <option value="oeste">GBA Zona Oeste</option>
+            <option value="sur">GBA Zona Sur</option>
+            </select>
+    
+            <label>Descripcion</label>
+            <textarea id="subject" placeholder="Describa su consulta..." style="height:200px"></textarea>
+    
+            <input id="boton-enviar" type="submit" value="Enviar" onclick="enviarConsulta()">
+    
+        </form>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../js/producto.js"></script>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>
+
